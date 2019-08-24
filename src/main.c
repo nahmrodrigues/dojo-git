@@ -2,6 +2,16 @@
 #include <stdlib.h>
 #include <math.h>
 
+void subtracao()
+{
+  int num1, num2, num3;
+  num1 = 7;
+  num2 = 3;
+  num3 = num1 - num2;
+
+printf("%d", num3);
+}
+
 void divisao() {
     float n1, n2;
 
@@ -56,13 +66,13 @@ int main() {
                  soma();
             break;
             case 2:
-                // subtracao();
+                subtracao();
             break;
             case 3:
                 multiplicacao();
             break;
             case 4:
-                divisao();
+               // divisao();
             break;
             case 5:
                 // exponenciacao();
@@ -92,3 +102,5 @@ void multiplicacao()
 
     printf("\nResultado: %d", numero1*numero2);
 }
+
+  
