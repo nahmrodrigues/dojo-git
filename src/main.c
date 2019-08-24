@@ -2,6 +2,15 @@
 #include <stdlib.h>
 #include <math.h>
 
+void divisao() {
+    float n1, n2;
+
+    printf("\nDigite os numeros: ");
+    scanf("%f %f", &n1, &n2);
+
+    printf("\nResultado: %.2f\n", n1/n2);
+}
+
 int get_option() {
     int option;
 
@@ -37,7 +46,7 @@ int main() {
                 // subtracao();
             break;
             case 3:
-                multiplicacao();
+                // multiplicacao();
             break;
             case 4:
                 // divisao();
