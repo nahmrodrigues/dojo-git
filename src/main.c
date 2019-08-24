@@ -5,7 +5,6 @@
 int get_option() {
     int option;
 
-    system("clear");
     printf("\n********************* CALCULADORA *********************\n");
     printf("0 - Sair\n");
     printf("1 - Soma\n");
@@ -32,22 +31,22 @@ int main() {
                 exit(0);
             break;
             case 1:
-                soma();
+                // soma();
             break;
             case 2:
-                subtracao();
+                // subtracao();
             break;
             case 3:
                 multiplicacao();
             break;
             case 4:
-                divisao();
+                // divisao();
             break;
             case 5:
-                exponenciacao();
+                // exponenciacao();
             break;
             case 6:
-                raiz_quadrada();
+                // raiz_quadrada();
             break;
             default:
                 printf("\nOpcao Invalida!\n");
@@ -56,4 +55,18 @@ int main() {
     }
 
     return 0;
+}
+
+void multiplicacao()
+{
+    int numero1 = 0;
+    int numero2 = 0;
+    
+    printf("\nDigite o primeiro numero: ");
+    scanf("%d", &numero1);
+
+    printf("\nDigite o segundo numero: ");
+    scanf("%d", &numero2);
+
+    printf("\nResultado: %d", numero1*numero2);
 }
