@@ -69,7 +69,7 @@ int main() {
                 subtracao();
             break;
             case 3:
-                // multiplicacao();
+                multiplicacao();
             break;
             case 4:
                // divisao();
@@ -89,5 +89,18 @@ int main() {
     return 0;
 }
 
+void multiplicacao()
+{
+    int numero1 = 0;
+    int numero2 = 0;
+    
+    printf("\nDigite o primeiro numero: ");
+    scanf("%d", &numero1);
+
+    printf("\nDigite o segundo numero: ");
+    scanf("%d", &numero2);
+
+    printf("\nResultado: %d", numero1*numero2);
+}
 
   
