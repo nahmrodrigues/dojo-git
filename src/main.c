@@ -2,10 +2,19 @@
 #include <stdlib.h>
 #include <math.h>
 
+void subtracao()
+{
+  int num1, num2, num3;
+  num1 = 7;
+  num2 = 3;
+  num3 = num1 - num2;
+
+printf("%d", num3);
+}
 int get_option() {
     int option;
 
-    system("clear");
+    //system("clear");
     printf("\n********************* CALCULADORA *********************\n");
     printf("0 - Sair\n");
     printf("1 - Soma\n");
@@ -32,22 +41,22 @@ int main() {
                 exit(0);
             break;
             case 1:
-                soma();
+               // soma();
             break;
             case 2:
                 subtracao();
             break;
             case 3:
-                multiplicacao();
+               // multiplicacao();
             break;
             case 4:
-                divisao();
+               // divisao();
             break;
             case 5:
-                exponenciacao();
+                // exponenciacao();
             break;
             case 6:
-                raiz_quadrada();
+                //raiz_quadrada();
             break;
             default:
                 printf("\nOpcao Invalida!\n");
@@ -57,3 +66,6 @@ int main() {
 
     return 0;
 }
+
+
+  
