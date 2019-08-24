@@ -39,6 +39,19 @@ int get_option() {
     return option;
 }
 
+int soma(){
+    int a, b;
+    int soma;
+
+    scanf("%d %d", &a, &b);
+
+    soma = a + b;
+
+    printf("%d", soma);
+
+    return 0;
+}
+
 int main() {
     int option;
 
@@ -50,10 +63,10 @@ int main() {
                 exit(0);
             break;
             case 1:
-        
+                 soma();
             break;
             case 2:
-                // subtracao();
+                subtracao();
             break;
             case 3:
                 // multiplicacao();
