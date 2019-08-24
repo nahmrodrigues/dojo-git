@@ -5,7 +5,6 @@
 int get_option() {
     int option;
 
-    system("clear");
     printf("\n********************* CALCULADORA *********************\n");
     printf("0 - Sair\n");
     printf("1 - Soma\n");
@@ -21,6 +20,19 @@ int get_option() {
     return option;
 }
 
+int soma(){
+    int a, b;
+    int soma;
+
+    scanf("%d %d", &a, &b);
+
+    soma = a + b;
+
+    printf("%d", soma);
+
+    return 0;
+}
+
 int main() {
     int option;
 
@@ -34,7 +46,7 @@ int main() {
             case 1:
                 soma();
             break;
-            case 2:
+         /*   case 2:
                 subtracao();
             break;
             case 3:
@@ -48,7 +60,7 @@ int main() {
             break;
             case 6:
                 raiz_quadrada();
-            break;
+            break; */
             default:
                 printf("\nOpcao Invalida!\n");
             break;
