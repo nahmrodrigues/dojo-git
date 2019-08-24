@@ -46,10 +46,10 @@ int main() {
                 // subtracao();
             break;
             case 3:
-                // multiplicacao();
+                multiplicacao();
             break;
             case 4:
-                // divisao();
+                divisao();
             break;
             case 5:
                 // exponenciacao();
