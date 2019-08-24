@@ -11,10 +11,19 @@ void subtracao()
 
 printf("%d", num3);
 }
+
+void divisao() {
+    float n1, n2;
+
+    printf("\nDigite os numeros: ");
+    scanf("%f %f", &n1, &n2);
+
+    printf("\nResultado: %.2f\n", n1/n2);
+}
+
 int get_option() {
     int option;
 
-    //system("clear");
     printf("\n********************* CALCULADORA *********************\n");
     printf("0 - Sair\n");
     printf("1 - Soma\n");
@@ -41,13 +50,13 @@ int main() {
                 exit(0);
             break;
             case 1:
-               // soma();
+        
             break;
             case 2:
-                subtracao();
+                // subtracao();
             break;
             case 3:
-               // multiplicacao();
+                // multiplicacao();
             break;
             case 4:
                // divisao();
@@ -56,7 +65,7 @@ int main() {
                 // exponenciacao();
             break;
             case 6:
-                //raiz_quadrada();
+                // raiz_quadrada();
             break;
             default:
                 printf("\nOpcao Invalida!\n");
